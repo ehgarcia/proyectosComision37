@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "titulo": "titulo del proyecto",
+        "descripcion": "descripcion",
+        "participantes":[
+            {
+                "nombre": "",
+                "avatar":"ruta_avatar",
+                "perfil_github": "link_repo"
+            }
+        ],
+        "url": "ruta_repo",
+        "image": "ruta"
+    }
+]
