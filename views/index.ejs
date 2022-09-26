@@ -1,62 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include('./partials/head.ejs') %> 
-<body>
-  <%- include('./partials/header.ejs') %> 
-    <div class="hero">
-        <div class="title">
-            <h1>Estudiamos para formar parte del talento Digital</h1>
-        </div>
-        <div class="paragraph">
-            <p>Desarrollamos las habilidades digitales más demandadas del mercado y reconvertimos nuestra profesión.</p>
-        </div>
-        <div class="profiles">
-            <a href="/students/profiles">Conoce nuestros perfiles</a>
-        </div>
-    </div>
+<%- include('./partials/head.ejs') %>
 
-    <section>
-        <div class="container">
-
-            <div class="card">
-                <img class="imagen-grande" src="./images/group_work_mobile.jpg" alt="">
-                <div class="container-title">
-                    <h3>Empezamos formando parte de un grupo</h3>
+    <body>
+        <%- include('./partials/header.ejs') %>
+            <div class="hero">
+                <div class="title">
+                    <h1>Estudiamos para formar parte del talento Digital</h1>
                 </div>
-                <div class="container-paragraph">
-                    El staff se encargara de generar grupos de trabajo a traves de un formulario, que tomara tus habilidades para hacerte parte de un grupo con diversas capacidades.
+                <div class="paragraph">
+                    <p>Desarrollamos las habilidades digitales más demandadas del mercado y reconvertimos nuestra
+                        profesión.</p>
+                </div>
+                <div class="profiles">
+                    <a href="/students/profiles">Conoce nuestros perfiles</a>
                 </div>
             </div>
 
+            <section>
+                <div class="container">
 
-            <div class="card">
-                <img class="imagen-chica" src="./images/wireframe_mobile.jpg" alt="">
-                <div class="container-title">
-                    <h3>Plasmando una idea sobre un wireframe</h3>
+                    <div class="card">
+                        <img class="imagen-grande" src="./images/group_work_mobile.jpg" alt="">
+                        <div class="container-title">
+                            <h3>Empezamos formando parte de un grupo</h3>
+                        </div>
+                        <div class="container-paragraph">
+                            El staff se encargara de generar grupos de trabajo a traves de un formulario, que tomara tus
+                            habilidades para hacerte parte de un grupo con diversas capacidades.
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="imagen-chica" src="./images/wireframe_mobile.jpg" alt="">
+                        <div class="container-title">
+                            <h3>Plasmando una idea sobre un wireframe</h3>
+                        </div>
+                        <div class="container-paragraph">
+                            La primer tarea que realizamos como grupo, es elegir un tema a tratar e idear un wireframe
+                            donde colocaremos las partes de nuestro sitio web. A futuro esta sera nuestra base.
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="imagen-grande" src="./images/agile_mobile.jpg" alt="">
+                        <div class="container-title">
+                            <h3>Utilizamos metodologias agiles</h3>
+                        </div>
+                        <div class="container-paragraph">
+                            Generamos un tablero en Trello donde le damos seguimiento a los sprint que van surgiendo en
+                            nuestro proyecto.
+                            Tambien realizamos una Weekly donde nos sincronizamos como grupo.
+                        </div>
+                    </div>
+
                 </div>
-                <div class="container-paragraph">
-                   La primer tarea que realizamos como grupo, es elegir un tema a tratar e idear un wireframe donde colocaremos las partes de nuestro sitio web. A futuro esta sera nuestra base. 
+
+
+
+                <div class="students">
+
+                    <div class="student-card marco-verde">
+                        <img class="imagen-chica" src="./images/avatars/avatar_woman_1.jpg" alt="">
+                        <div class="container-title">
+                            <h3>Luciana</h3>
+                            <p class="title-violeta">Grupo 87 - Salacity</p>
+                        </div>
+                        <div class="container-paragraph">
+                            El proposito de nuestro proyecto es replicar el conocido Farmacity, podiendo dar la experiencia de comprar desde la comodidad de tu casa. 
+                        </div>
+                    </div>
+
+                    <div class="student-card marco-violeta">
+                        <img class="imagen-grande" src="./images/avatars/avatar_men_1.jpg" alt="">
+                        <div class="container-title">
+                            <h3>Pablo</h3>
+                            <p class="title-verde">Grupo 22 - Colorful</p>
+                        </div>
+                        <div class="container-paragraph">
+                            Nuestro ecommer se trata de una pintureria que ofrece envios a domicilio de pinturas de interior y exterior. 
+                        </div>
+                    </div>
+
+                    <div class="student-card marco-verde">
+                        <img class="imagen-grande" src="./images/avatars/avatar_woman_2.jpg" alt="">
+                        <div class="container-title">
+                            <h3>Luciana</h3>
+                            <p class="title-violeta">Grupo 87 - Solarius</p>
+                        </div>
+                        <div class="container-paragraph">
+                            Nuestro grupo creo un ecommer para comprar panales solares y todos los elementos relacionados con el mantenimiento que conllevan.
+                        </div>
+                    </div>
+
+                    <div class="student-card marco-violeta">
+                        <img class="imagen-grande" src="./images/avatars/avatar_men_2.jpg" alt="">
+                        <div class="container-title">
+                            <h3>Jorge</h3>
+                            <p class="title-verde">Grupo 94 - Polaroid</p>
+                        </div>
+                        <div class="container-paragraph">
+                            Con Polaroid podes enviarnos tus fotos, elegir un marco y nosotros te la enviamos impresa a tu casa. 
+                        </div>
+                    </div>
+
+
+
+
                 </div>
-            </div>
+            </section>
+            <%- include('./partials/footer.ejs') %>
+    </body>
 
-            <div class="card">
-                <img class="imagen-grande" src="./images/agile_mobile.jpg" alt="">
-                <div class="container-title">
-                    <h3>Utilizamos metodologias agiles</h3>
-                </div>
-                <div class="container-paragraph">
-                    Generamos un tablero en Trello donde le damos seguimiento a los sprint que van surgiendo en nuestro proyecto. 
-                    Tambien realizamos una Weekly donde nos sincronizamos como grupo. 
-                </div>
-            </div>
-
-
-
-
-
-
-            </div>
-    </section>
-        <%- include('./partials/footer.ejs') %> 
-</body>
 </html>

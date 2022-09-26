@@ -10,6 +10,9 @@
     --main-color-things: #8A6DF1;
     --second-color-things: #00CC7E;
     --main-color-button: #3333ff;
+    --title-violeta: #A18FDF;
+    --title-verde: #69E4B5;
+
 } 
 
 
@@ -58,23 +61,23 @@ a{
     text-decoration: none;
 }
 
-.container{
+.container, .students{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    font-family: 'Archivo', sans-serif;
 }
 
-.card{
+.card, .student-card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 70%;
     padding: 5%;
-    border: 2px solid var(--main-color-things);
     border-radius: 15px;
     margin-top: 5%;
 }
@@ -93,8 +96,42 @@ a{
     border-radius: 15px;
 }
 
-
 .imagen-chica{
     width: 50%;
     border-radius: 15px;
+}
+
+.students{
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: var(--third-color-background);
+}
+
+.student-card{
+    background-color: var(--second-color-background);
+    color: #fff;
+    border: 2px solid var(--second-color-things);
+}
+
+.container-title h3, .container-title p{
+    text-align: center;
+}
+
+.marco-violeta{
+    border: 2px solid var(--title-violeta);
+}
+
+.marco-verde{
+    border: 2px solid var(--title-verde);
+}
+
+.title-violeta{
+    color: var(--title-violeta);
+    font-size: large;
+}
+
+.title-verde{
+    color: var(--title-verde);
+    font-size: large;
 }
