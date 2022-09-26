@@ -57,3 +57,44 @@ nav{
 a{
     text-decoration: none;
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 5%;
+    border: 2px solid var(--main-color-things);
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+.container-title, .container-paragraph{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container-title h3{
+    text-align: center;
+}
+
+.imagen-grande{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.imagen-chica{
+    width: 50%;
+    border-radius: 15px;
+}
