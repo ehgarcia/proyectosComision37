@@ -9,7 +9,7 @@
     --third-color-background: #18181B;
     --main-color-things: #8A6DF1;
     --second-color-things: #00CC7E;
-    --main-color-button: #3333ff;
+    --main-color-button: #3333FF;
     --title-violeta: #A18FDF;
     --title-verde: #69E4B5;
 
@@ -135,3 +135,12 @@ a{
     color: var(--title-verde);
     font-size: large;
 }
+
+footer{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+}
+
+
